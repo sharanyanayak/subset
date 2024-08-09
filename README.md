@@ -16,7 +16,7 @@ scanf ( "%d" , &d ) ;
 for ( i = 1 ; i <= n ; i++ )
 sum = sum + s[i] ;
 if ( sum < d || s[1] > d )
-printf ( " \n No subset possible : " ) ;
+printf ( " \n No subset possible : " );
 else
 sumofsub ( 0 , 1 , sum ) ;
 }
